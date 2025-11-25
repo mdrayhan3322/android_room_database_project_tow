@@ -20,7 +20,7 @@ class UpdateProfileActivity : AppCompatActivity() {
     private lateinit var districtEditText: EditText
     private lateinit var mobileEditText: EditText
 
-    override fun onCreate(savedInstanceState: Bundle?) {
+    override fun onCreate(savedInstanceState:Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_update_profile)
